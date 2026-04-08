@@ -313,6 +313,9 @@ dl.phpdebugbar-widgets-kvlist {
     overflow-wrap: anywhere;
     overflow-x: auto;
   }
+  dl.phpdebugbar-widgets-kvlist dd.phpdebugbar-widgets-value pre.sf-dump:has(>.sf-dump-compact) {
+    max-width: 90%;
+  }
 
 /* -------------------------------------- */
 
