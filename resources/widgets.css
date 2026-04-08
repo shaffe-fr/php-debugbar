@@ -291,7 +291,7 @@ div.phpdebugbar-widgets-messages {
 dl.phpdebugbar-widgets-kvlist {
   margin: 0;
   display: grid;
-  grid-template-columns: minmax(160px, 15%) 1fr;
+  grid-template-columns: minmax(160px, 15%) minmax(0, 1fr);
 }
   dl.phpdebugbar-widgets-kvlist dt {
     grid-column: 1;
@@ -311,6 +311,7 @@ dl.phpdebugbar-widgets-kvlist {
     cursor: pointer;
     min-height: 17px;
     overflow-wrap: anywhere;
+    overflow-x: auto;
   }
 
 /* -------------------------------------- */
